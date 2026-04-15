@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supermarket Alsafadi</title>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="style/style.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="pic/logo-icon.svg">
+</head>
+
+<body>
+
+    <div class="card">
+
+        <!-- Profil -->
+        <div class="profile">
+            <img src="pic/logo.png" alt="Supermarket Alsafadi"> <!-- Remplacez par votre logo -->
+            <h2>ماركت الصفدي</h2>
+            <p style="margin: 8px 0 0; color: #e63939; font-weight: bold;">للتوفير</p>
+        </div>
+
+        <!-- Boutons -->
+        <div class="contacts">
+
+            <div class="contact-btn insta" onclick="go('https://www.instagram.com/alsafadi.market?igsh=dzR3cXZvdnJpdXk5&utm_source=qr')">
+                <i class="fab fa-instagram"></i> Instagram
+            </div>
+
+            <div class="contact-btn tik" onclick="go('https://www.tiktok.com/@marketalsafadi?_r=1&_t=ZS-95Yv63oIBNd')">
+                <i class="fab fa-tiktok"></i> TikTok
+            </div>
+
+            <div class="contact-btn whatsapp" onclick="go('https://chat.whatsapp.com/Jb2u4B22BAt2rIcOuoPG0Y?mode=gi_t')">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </div>
+
+            <!-- Vous pouvez ajouter d'autres boutons si besoin -->
+        </div>
+    </div>
+
+    <script>
+        function go(url) {
+            window.open(url, "_blank");
+        }
+    </script>
+
+</body>
+</html>
