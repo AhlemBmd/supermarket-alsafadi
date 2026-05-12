@@ -84,11 +84,10 @@ body {
 .insta:hover { background: linear-gradient(45deg, #e1306c, #f56040); }
 .tik:hover   { background: linear-gradient(45deg, #000, #ee1d52); }
 .whatsapp:hover { background: linear-gradient(45deg, #25D366, #128C7E); }
-    .footer {
-      margin-top: 48px;
-      text-align: center;
-      font-size: 9px;
-      letter-spacing: 0.2em;
-    
-      text-transform: uppercase;
-    }
+/* Copyright */
+.copyright {
+    margin-top: 24px;
+    font-size: 12px;
+    color: #aaa;
+    letter-spacing: 0.3px;
+}
